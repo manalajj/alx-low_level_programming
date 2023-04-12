@@ -21,7 +21,7 @@ mee[x] = malloc(sizeof(int) * width);
 if (mee[x] == NULL)
 {
 for (; x >= 0; x--)
-free(mee[x]);	
+free(mee[x]);
 free(mee);
 return (NULL);
 }
